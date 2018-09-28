@@ -1,0 +1,10 @@
+version: "2.0"
+
+services:
+  bug_demo_web:
+    build:
+      context: .
+    ports:
+      - 8000:8000
+    tty: true
+    stdin_open: true

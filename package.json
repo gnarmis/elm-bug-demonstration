@@ -1,0 +1,14 @@
+{
+  "name": "elm-bug-demonstration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gnarmis/elm-bug-demonstration.git",
+  "author": "Gursimran Singh <g@kilotau.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run static public -p 8000"
+  },
+  "dependencies": {
+    "node-static": "0.7.11"
+  }
+}

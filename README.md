@@ -1,4 +1,10 @@
-# How to reproduce bug
+# How to reproduce the bug
+
+## CI
+
+Just go to https://gitlab.com/gnarmis/elm-bug-demonstration/pipelines -- see the most recent failed pipeline.
+
+## Manual
 
 1. Install Docker
 

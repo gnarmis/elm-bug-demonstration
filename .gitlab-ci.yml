@@ -1,0 +1,9 @@
+image: "cypress/browsers:chrome67"
+
+stages:
+  - build
+
+docker_build:
+  stage: build
+  script:
+    - docker build "$CI_PROJECT_DIR"
